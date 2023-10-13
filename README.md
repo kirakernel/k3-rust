@@ -1,2 +1,3 @@
-# k3-rust
-I'm a Rustacean, too!
+# Rust
+
+Reading through The Rust Programming Language Book 
