@@ -19,7 +19,7 @@ fn main() {
 // each number is the sum of the two preceding ones.
 // https://en.wikipedia.org/wiki/Fibonacci_sequence
 // 
-// Where I got some inspiration:
+// Source of inspiration:
 // https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 fn fib(n: i32) {
     //let mut sequence = "";
