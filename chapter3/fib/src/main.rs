@@ -22,12 +22,12 @@ fn main() {
 // Source of inspiration:
 // https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 fn fib(n: i32) {
-    //let mut sequence = "";
+    //let mut series = "";
     let mut index = 0;
-    let [mut a, mut b] = [0, 1];
+    let (mut a, mut b) = (0, 1);
     while index < n {
         print!("{} ", a);
-        [a, b] = [b, a + b];
+        (a, b) = (b, a + b);
          index += 1;
     }
     println!("");
