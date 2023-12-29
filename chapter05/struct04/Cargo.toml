@@ -1,5 +1,5 @@
 [package]
-name = "tuple_structs"
+name = "struct04"
 version = "0.1.0"
 edition = "2021"
 
