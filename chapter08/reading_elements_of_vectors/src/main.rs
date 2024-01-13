@@ -6,7 +6,7 @@ fn main() {
 
     let third: Option<&i32> = v.get(2);
     match third {
-        Some(third) => println!("The third element is {third}"),
+        Some(third) => println!("The third lement is {third}"),
         None => println!("There is no third element."),
     }
 }
