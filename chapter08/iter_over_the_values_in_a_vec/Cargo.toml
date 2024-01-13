@@ -1,5 +1,5 @@
 [package]
-name = "str02"
+name = "iter_over_the_values_in_a_vec"
 version = "0.1.0"
 edition = "2021"
 
