@@ -1,5 +1,5 @@
 [package]
-name = "gen_data_types03"
+name = "point"
 version = "0.1.0"
 edition = "2021"
 
