@@ -47,7 +47,7 @@ impl<'a> Iterator for User<'a> {
     type Item = &'a str;
 
     fn next(&mut self) -> Option<Self::Item> {
-        if self.n_fields == 2 {
+        /*if self.n_fields == 2 {
             self.n_fields -= 1;
             Some(self.name)
         } else if self.n_fields == 1 {
@@ -55,6 +55,17 @@ impl<'a> Iterator for User<'a> {
             Some(self.id)
         } else {
             None
+        }*/
+        match self.n_fields {
+            1 => {
+                self.n_fields -= 1;
+                return Some(self.id);
+            }
+            2 => {
+                self.n_fields -= 1;
+                return Some(self.name);
+            }
+            _ => None,
         }
     }
 }
